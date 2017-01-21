@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  padding: 1em;
+  border-color: transparent;
+  border-radius: 5px;
+  transition: background .5s;
+
+  @each $name, $colors in $buttons {
+    @include modifier($name) {
+      background-color: nth($colors, 1);
+      color: nth($colors, 2);
+
+      &:hover {
+        background: darken(nth($colors, 1), 10%);
+      }
+    }
+  }
+}

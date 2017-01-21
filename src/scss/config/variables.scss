@@ -1,0 +1,17 @@
+$brandPrimary: #000;
+$brandSecondary: #fff;
+
+$errorBackgroundColor: #d9534f;
+$errorFontColor: #fff;
+
+$successBackgroundColor: #52bf4a;
+$successFontColor: #fff;
+
+$warningBackgroundColor: #f0ad4e;
+$warningFontColor: #fff;
+
+$buttons: (
+  error: ($errorBackgroundColor, $errorFontColor),
+  success: ($successBackgroundColor, $successFontColor),
+  warning: ($warningBackgroundColor, $warningFontColor)
+)

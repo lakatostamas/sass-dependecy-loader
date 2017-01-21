@@ -1,0 +1,21 @@
+{
+  "name": "inject-scss-variables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.3.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "tamas.lakatos",
+  "license": "ISC"
+}
